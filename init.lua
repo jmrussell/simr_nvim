@@ -15,6 +15,5 @@ vim.g.mapleader = " "
 vim.g.maplocalleader = "\\"
 
 require("lazy").setup("plugins")
-require(config.options)
-require(config.keymaps)
-
+require("config.options")
+require("config.keymaps")
